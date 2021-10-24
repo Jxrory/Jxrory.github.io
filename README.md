@@ -1,1 +1,1 @@
-# Jxrory Blogs
+# Jxrory Blog

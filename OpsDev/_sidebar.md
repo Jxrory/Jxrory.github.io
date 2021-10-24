@@ -5,4 +5,7 @@
 * [Github 多账户 SSH KEY 配置](/OpsDev/ssh_github.md)
 
 * vpn
-** [ss服务器搭建](/OpsDev/vpn/ss服务器搭建.md)
+
+** [搭建 shadowsocks 服务器](/OpsDev/vpn/shadowsocks.md)
+
+** [strongSwan 搭建 IKEv2 VPN服务器](/OpsDev/vpn/strongSwan.md)
