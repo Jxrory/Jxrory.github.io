@@ -2,6 +2,7 @@
 # OpsDev <!-- {docsify-ignore} -->
 
 * [docsify](/OpsDev/docsify.md)
+* [Homebrew 换源](/OpsDev/Homebrew换源.md)
 * [Github 多账户 SSH KEY 配置](/OpsDev/ssh_github.md)
 
 * vpn
