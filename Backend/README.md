@@ -1,5 +1,7 @@
 ## Backend <!-- {docsify-ignore-all} -->
 
+[基础知识](./base/README.md ':include')
+
 [Mysql](./mysql/README.md ':include')
 
 [Redis](./redis/README.md ':include')
