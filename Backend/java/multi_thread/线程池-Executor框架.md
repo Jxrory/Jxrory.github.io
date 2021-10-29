@@ -10,7 +10,7 @@
 
 如下图所示，包括任务执行机制的核心接口 `Executor` ，以及继承自 `Executor` 接口的 `ExecutorService` `接口。ThreadPoolExecutor` 和 `ScheduledThreadPoolExecutor` 这两个关键类实现了 `ExecutorService` 接口。
 
-![任务的执行相关接口](../../../_media/images/backend/java/任务的执行相关接口.png)
+![任务的执行相关接口](../_images/任务的执行相关接口.png)
 
 ### 3. 异步计算的结果(Future)
 
@@ -18,7 +18,7 @@
 
 ## Executor 框架的使用示意图
 
-![Executor框架的使用示意图](../../../_media/images/backend/java/Executor框架的使用示意图.png)
+![Executor框架的使用示意图](../_images/Executor框架的使用示意图.png)
 
 1. 主线程首先要创建实现 `Runnable` 或者 `Callable` 接口的任务对象
 
