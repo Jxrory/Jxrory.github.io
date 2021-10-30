@@ -1,11 +1,5 @@
 # ![](/_media/icon/notebook-32.svg) Jxrory Blog <!-- {docsify-ignore-all} -->
 
-## [![](/_media/icon/tools-23.svg) OpsDev](/OpsDev/README.md)
-
-* [Homebrew 换源](/OpsDev/Homebrew换源.md)
-* [docsify](/OpsDev/docsify.md)
-* [Github 多账户 SSH KEY 配置](/OpsDev/ssh_github.md)
-
 ## Backend
 
 ### ![](/_media/icon/sql-23.svg) SQL
@@ -19,12 +13,26 @@
 
 ## Java
 
-* [并发基础](/Backend/java/multi_thread/并发基础.md)
-* [线程池-Executor框架](/Backend/java/multi_thread/线程池-Executor框架.md)
+* Basic
+
+  * [POJO: DO/VO/DTO/BO 的介绍](/Backend/java/basic/POJO.md)
+  * [IOC](/Backend/java/basic/IOC.md)
+  * [AOP](/Backend/java/basic/AOP.md)
+
+* 多线程
+
+  * [Java线程并发基础](/Backend/java/multi_thread/并发基础.md)
+  * [线程池-Executor框架](/Backend/java/multi_thread/线程池-Executor框架.md)
 
 ## 分布式
 
 * [分布式ID](/Backend/distributed/分布式ID.md)
+
+## [![](/_media/icon/tools-23.svg) OpsDev](/OpsDev/README.md)
+
+* [Homebrew 换源](/OpsDev/Homebrew换源.md)
+* [docsify](/OpsDev/docsify.md)
+* [Github 多账户 SSH KEY 配置](/OpsDev/ssh_github.md)
 
 ### ![](/_media/icon/python-23.svg) Python
 
