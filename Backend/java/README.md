@@ -3,6 +3,8 @@
 #### Basic
 
 * [POJO: DO/VO/DTO/BO 的介绍](/Backend/java/basic/POJO.md)
+* [IOC](/Backend/java/basic/IOC.md)
+* [AOP](/Backend/java/basic/AOP.md)
 
 #### 多线程
 

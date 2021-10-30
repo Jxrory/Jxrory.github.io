@@ -15,7 +15,7 @@ IOC(Inversion of control): 控制反转, 描述的是：Java 开发领域对象�
 
 `反转`：控制权交给外部环境（Spring 框架、IoC 容器）
 
-![ioc](./_images/ioc.png)
+![ioc](../_images/ioc.png)
 
 ### IoC 解决了什么问题
 

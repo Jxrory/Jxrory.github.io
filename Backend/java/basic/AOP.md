@@ -17,9 +17,9 @@ AOP 主要用来解决：在不改变原有业务逻辑的情况下，增强横�
 >
 > `Proxy`: 代理角色，内部含有对真实对象RealSubject的引用，从而可以操作真实对象。
 
-![aop](./_images/aop-1.jpg)
+![aop](../_images/aop-1.jpg)
 
-![aop](./_images/aop-2.jpg)
+![aop](../_images/aop-2.jpg)
 
 ### 静态代理
 
