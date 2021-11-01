@@ -13,6 +13,7 @@
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/pure.css"> -->
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dolphin.css"> -->
 
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css"/>
 </head>
 
 <body>
@@ -32,7 +33,9 @@
 
       // 定制侧边栏
       loadSidebar: true,
-      subMaxLevel: 2, // 开启二级标题目录
+      subMaxLevel: 3, // 开启二级标题目录
+      sidebarDisplayLevel: 1, // set sidebar display level
+
 
       // [插件]代码复制插件
       copyCode: {
@@ -46,8 +49,11 @@
   <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script> -->
 
   <!-- 代码复制插件 -->
+  <!-- 代码拷贝 -->
   <script src="./_media/backup/docsify-copy-code.min.js"></script>
   <!-- <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script> -->
+  <!-- 侧边栏折叠展开 -->
+  <script src="./_media/backup/docsify-sidebar-collapse.min.js"></script>
 
   <!-- 
     代码高亮插件: 默认支持的语言
