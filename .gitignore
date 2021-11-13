@@ -2,3 +2,6 @@
 
 # macOS
 .DS_Store
+
+# 忽略不需要上传的目录
+Other/面试
