@@ -57,9 +57,7 @@ http://ohttps.com 提供了类似于acme.sh的功能，不过提供了友好的�
 
 ## 总结
 
-推荐使用 `OHTTPS` 简单方便, 可以部署多个不同节点.
-
-使用参考: [OHTTPS使用](/OpsDev/ssl-ohttps.md)
+`OHTTPS` 在注册的时候存在问题, 最后选择了 `acme.sh`, 相关文档可以看下 [acme.sh 安装使用](/OpsDev/ssl-acme.sh.md)
 
 ## 参考
 
