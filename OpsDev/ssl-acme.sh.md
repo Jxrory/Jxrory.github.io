@@ -60,7 +60,7 @@ export DP_Id="1234"
 
 export DP_Key="sADDsdasdgdsf"
 
-acme.sh   --issue   --dns dns_dp   -d aa.com  -d www.aa.com
+acme.sh --issue --dns dns_dp -d aa.com -d www.aa.com
 ```
 
 证书就会自动生成了. 这里给出的 api id 和 api key 会被自动记录下来, 将来你在使用 dnspod api 的时候, 就不需要再次指定了. 直接生成就好了:
@@ -70,6 +70,13 @@ acme.sh  --issue   -d  mydomain2.com   --dns  dns_dp
 ```
 
 ### copy/安装 证书
+
+| 文件名 | 简述 |
+| ------------- | ---------------------------------------- |
+| ca.cer        | 中间证书和根证书                         |
+| nginx.cn.cer  | 你申请的ssl证书                          |
+| fullchain.cer | 包括了 ca.cer 和 nginx.cn.cer 的全链证书 |
+| nginx.cn.key  | 证书的私钥                               |
 
 **Nginx example**:
 
@@ -117,3 +124,4 @@ acme.sh --upgrade  --auto-upgrade  0
 [acme.sh wiki](https://github.com/acmesh-official/acme.sh/wiki/%E8%AF%B4%E6%98%8E)
 [腾讯云域名使用acme.sh签发letsencrypt的wildcard](https://blog.axis-studio.org/2019/04/05/%E8%85%BE%E8%AE%AF%E4%BA%91%E5%9F%9F%E5%90%8D%E4%BD%BF%E7%94%A8acme-sh%E7%AD%BE%E5%8F%91letsencrypt%E7%9A%84wildcard/index.html)
 [dns-api](https://github.com/acmesh-official/acme.sh/wiki/dnsapi#2-dnspodcn-option)
+[根证书、服务器证书、用户证书的区别](https://www.nginx.cn/5559.html)
