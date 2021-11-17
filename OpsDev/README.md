@@ -1,7 +1,7 @@
 # OpsDev <!-- {docsify-ignore-all} -->
 
 * [github 搭建自己的个人博客](/OpsDev/pages-github-io.md)
-* [docsify](/OpsDev/docsify.md)
+* [docsify 快速构建博客站点](/OpsDev/docsify-快速构建博客站点.md)
 * [Github 多账户 SSH KEY 配置](/OpsDev/ssh_github.md)
 
 ## vpn

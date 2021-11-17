@@ -41,8 +41,7 @@ git push -u origin main
 !> 替换 `{username}` 为自己的用户名.
 
 **想让自己的页面更加好看?**
-
-[docsify 使用](/OpsDev/docsify.md)
+[**docsify 快速构建博客站点**](/OpsDev/docsify-快速构建博客站点.md)
 
 ## 参考
 
