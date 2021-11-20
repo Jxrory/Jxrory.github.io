@@ -46,8 +46,3 @@
 * [docsify 快速构建博客站点](/OpsDev/docsify-快速构建博客站点.md)
 * [Homebrew 换源](/OpsDev/Homebrew换源.md)
 * [Github 多账户 SSH KEY 配置](/OpsDev/ssh_github.md)
-
-### ![](/_media/icon/python-23.svg) Python
-
-* [pip 换源](/OpsDev/pip换源.md)
-* [pyenv 安装&使用](/OpsDev/pyenv.md)
