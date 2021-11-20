@@ -90,7 +90,16 @@ delay = 1
 
 ## 问题: TODO
 
-- [ ] Mac和iOS系统的日历系统还是无法同步
+- [X] Mac和iOS系统的日历系统还是无法同步
+
+!> 开启nginx反向代理 + ssl
+
+
+## 杂记
+
+icloud 任务颜色板
+
+![icould任务颜色板](./_images/icould任务颜色板.png)
 
 ## 参考
 
