@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="./_media/backup/sidebar.min.css">
   <link rel="stylesheet" href="./_media/backup/toc.css">
   <link rel="stylesheet" href="./_media/backup/jsmind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 
   <script type="text/javascript" src="./_media/backup/jsmind.js"></script>
   <script type="text/javascript" src="./_media/backup/jsmind.draggable.js"></script>
@@ -23,7 +24,22 @@
 
 <body>
   <div id="app">加载中</div>
+
+  <!-- <div id="gitalk-container"></div> -->
   <script>
+    const gitalk = new Gitalk({
+      clientID: '992e01df1b1e28faf205',
+      clientSecret: '8ddb10325db7a4f1a9fb53442d58df236df1ef3e',
+      repo: 'jxrory-talk',
+      owner: 'jxrory',
+      admin: ['jxrory'],
+      // facebook-like distraction free mode
+      language:'zh-CN', // 语言
+      distractionFreeMode: false
+    })
+
+    gitalk.render('gitalk-container')
+
     window.$docsify = {
       // 侧边栏显示名字和logo, name和logo只能选择其一
       name: 'Jxrory Blog',
@@ -71,6 +87,8 @@
   -->
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 </body>
 
 </html>

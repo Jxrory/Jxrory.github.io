@@ -29,13 +29,6 @@
 - [ ] [聚簇和非聚簇索引](/Backend/mysql/聚簇和非聚簇索引.md)
 - [ ] [锁的类型](/Backend/mysql/锁的类型.md)
 
-**网络**:
-
-- [ ] [tcp三次握手4次挥手](/Backend/network/tcp三次握手4次挥手.md)
-- [ ] [tcp/ip协议](/Backend/network/tcp-ip协议.md)
-- [ ] [http协议](/Backend/network/http协议.md)
-- [ ] [websocket协议](/Backend/network/websocket协议.md)
-
 **Redis**:
 
 - [ ] [RDB_AOF](/Backend/redis/RDB_AOF.md)
