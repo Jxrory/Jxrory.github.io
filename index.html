@@ -16,7 +16,9 @@
   <link rel="stylesheet" href="./_media/backup/sidebar.min.css">
   <!-- <link rel="stylesheet" href="./_media/backup/toc.css"> -->
   <!-- <link rel="stylesheet" href="./_media/backup/jsmind.css"> -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css"> -->
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
 
   <!-- <script type="text/javascript" src="./_media/backup/jsmind.js"></script>
   <script type="text/javascript" src="./_media/backup/jsmind.draggable.js"></script> -->
@@ -94,9 +96,33 @@
 
   <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
 
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script> -->
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script src="_media/backup/md5.min.js"></script>
   <script>
+    function url_parse(url) {
+        var left = url.indexOf('/#/');
+        if(left < 0) {
+          return url;
+        }
+
+        var right = url.lastIndexOf('?');
+        if (right <= 0 || right < left) {
+          right = url.length;
+        }
+        return url.substring(left, right);
+    }
+
+    function get_talk_id() {
+      gittalk_id = url_parse(location.href);
+      console.log('href', location.href, 'id', gittalk_id);
+      if(gittalk_id.length > 45) {
+        gittalk_id = md5(gittalk_id);
+      }
+    }
+    
     const gitalk = new Gitalk({
       clientID: '992e01df1b1e28faf205',
       clientSecret: '8ddb10325db7a4f1a9fb53442d58df236df1ef3e',
