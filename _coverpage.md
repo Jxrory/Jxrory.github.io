@@ -5,4 +5,4 @@
 # Jxrory Blog
 
 [GitHub](https://github.com/jxrory/)
-[Started](/README)
+[开始阅读](/README)

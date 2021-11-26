@@ -35,9 +35,3 @@
 - [ ] [RedisCluster](/Backend/redis/RedisCluster.md)
 - [ ] [Redis集群方案](Backend/redis/Redis集群方案.md)
 - [ ] [主从复制原理](/Backend/redis/主从复制原理.md)
-
-## Frontend
-
-## OpsDev
-
-- [ ] [Build-CalDAV-CardDAV-Server](/OpsDev/Build-CalDAV-CardDAV-Server.md)
