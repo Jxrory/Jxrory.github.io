@@ -6,18 +6,19 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
 
-  <link rel="stylesheet" href="./_media/backup/vue.css">
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css"> -->
+  <!-- <link rel="stylesheet" href="./_media/backup/vue.css"> -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/buble.css"> -->
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css"> -->
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/pure.css"> -->
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dolphin.css"> -->
 
-  <link rel="stylesheet" href="./_media/backup/sidebar.min.css">
+  <!-- <link rel="stylesheet" href="./_media/backup/sidebar.min.css"> -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+
   <!-- <link rel="stylesheet" href="./_media/backup/toc.css"> -->
   <!-- <link rel="stylesheet" href="./_media/backup/jsmind.css"> -->
 
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css"> -->
   <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
 
   <!-- <script type="text/javascript" src="./_media/backup/jsmind.js"></script>
@@ -59,28 +60,19 @@
       // Or load from _footer.md
       loadFooter: '_footer.md',
     }
-
-    // const gitalk = new Gitalk({
-    //   clientID: '992e01df1b1e28faf205',
-    //   clientSecret: '8ddb10325db7a4f1a9fb53442d58df236df1ef3e',
-    //   repo: 'jxrory-talk',
-    //   owner: 'Jxrory',
-    //   admin: ['Jxrory'],
-    //   id: location.href,      // Ensure uniqueness and length less than 50
-    //   // facebook-like distraction free mode
-    //   language:'zh-CN', // 语言
-    //   distractionFreeMode: false
-    // })
   </script>
-  <script src="./_media/backup/docsify.min.js"></script>
-  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script> -->
+  <!-- <script src="./_media/backup/docsify.min.js"></script> -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 
   <!-- 代码复制插件 -->
   <!-- 代码拷贝 -->
-  <script src="./_media/backup/docsify-copy-code.min.js"></script>
-  <!-- <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script> -->
+  <!-- <script src="./_media/backup/docsify-copy-code.min.js"></script> -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+
   <!-- 侧边栏折叠展开 -->
-  <script src="./_media/backup/docsify-sidebar-collapse.min.js"></script>
+  <!-- <script src="./_media/backup/docsify-sidebar-collapse.min.js"></script> -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+
   <!-- <script src="./_media/backup/toc.js"></script>
   <script src="./_media/backup/docsify-jsmind.js"></script> -->
 
@@ -94,10 +86,10 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
 
+  <!-- 页尾标志 -->
   <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
 
-  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script> -->
+  <!-- 插件: 评论 -->
   <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
   <script src="_media/backup/md5.min.js"></script>
