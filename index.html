@@ -121,6 +121,7 @@
       if(gittalk_id.length > 45) {
         gittalk_id = md5(gittalk_id);
       }
+      return gittalk_id;
     }
     
     const gitalk = new Gitalk({
