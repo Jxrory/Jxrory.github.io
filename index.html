@@ -103,16 +103,18 @@
   <script src="_media/backup/md5.min.js"></script>
   <script>
     function url_parse(url) {
-        var left = url.indexOf('/#/');
-        if(left < 0) {
-          return url;
-        }
+      var left = url.indexOf('/#/');
+      if(left < 0) {
+        return url;
+      }
 
-        var right = url.lastIndexOf('?');
-        if (right <= 0 || right < left) {
-          right = url.length;
-        }
-        return url.substring(left, right);
+      left += 3; // 剔除 '/#/' 字符串
+
+      var right = url.lastIndexOf('?');
+      if (right <= 0 || right < left) {
+        right = url.length;
+      }
+      return url.substring(left, right);
     }
 
     function get_talk_id() {
@@ -135,6 +137,13 @@
       // facebook-like distraction free mode
       distractionFreeMode: false
     })
+
+    // 刷新页面更新评论信息
+    window.onhashchange = function (event) {
+      if (url_parse(event.newURL) !== url_parse(event.oldURL)) {
+        location.reload()
+      }
+    }
   </script>
 </body>
 
