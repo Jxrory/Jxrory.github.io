@@ -11,12 +11,12 @@
   * [homebrew 换源](/OpsDev/tip/homebrew换源.md)
 
 * Docker
-  *[centos7 安装docker](/OpsDev/docker/centos7安装docker.md)
-  *[centos7 安装docker-compose](/OpsDev/docker/centos7安装docker-compose.md)
-  *[docker-compose入门](/OpsDev/docker/docker-compose入门.md)
+  * [centos7 安装docker](/OpsDev/docker/centos7安装docker.md)
+  * [centos7 安装docker-compose](/OpsDev/docker/centos7安装docker-compose.md)
+  * [docker-compose入门](/OpsDev/docker/docker-compose入门.md)
 
 * Nginx
-  *[nginx config](/OpsDev/nginx/nginx-config.md)
+  * [nginx config](/OpsDev/nginx/nginx-config.md)
 
 * vpn
   * [搭建 shadowsocks 服务器](/OpsDev/vpn/shadowsocks.md)
