@@ -9,3 +9,5 @@
 * [Mysql事务](/Backend/mysql/Mysql事务.md)
 * [MVCC](/Backend/mysql/MVCC.md)
 * [主从同步原理](/Backend/mysql/主从同步原理.md)
+
+* [工作中碰到的一些Mysql配置问题](/Backend/mysql/config-work-problem.md)
