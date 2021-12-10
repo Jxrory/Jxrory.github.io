@@ -88,6 +88,44 @@ timeout = 30
 delay = 1
 ```
 
+## Docker Installation
+
+### 配置文件
+
+```bash
+[auth]
+type = htpasswd
+# note: that's a path inside the container
+htpasswd_filename = /var/radicale/users
+# encryption method used in the htpasswd file
+htpasswd_encryption = bcrypt
+
+[server]
+hosts = 0.0.0.0:8000
+
+[storage]
+filesystem_folder = /var/radicale/collections
+```
+
+### 启动
+
+```bash
+docker run -v /srv/radicale/data:/var/radicale -p80:8000 -n radicale xlrl/radicale
+```
+
+### 创建用户
+
+```bash
+# Create a new htpasswd file with the user "user1"
+docker exec -ti radicale htpasswd -B -c /var/radicale/users user1
+New password:
+Re-type new password:
+# Add another user
+docker exec -ti radicale htpasswd -B -c /var/radicale/users user2
+New password:
+Re-type new password:
+```
+
 ## 问题: TODO
 
 - [X] Mac和iOS系统的日历系统还是无法同步
@@ -111,6 +149,7 @@ icloud 任务颜色板
 **搭建**:
 
 [install-radicale-caldav-server](https://automationadmin.com/2017/07/install-radicale-caldav-server/)
+[docker-radicale](https://github.com/xlrl/docker-radicale)
 
 **官方权威文档**:
 [radicale - 文档](https://radicale.org/3.0.html)
