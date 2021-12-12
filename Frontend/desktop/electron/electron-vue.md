@@ -29,6 +29,17 @@ vue add electron-builder
 npm run electron:serve
 ```
 
+## 构建
+
+**构建命令配置**:
+
+```js
+    "electron:build": "vue-cli-service electron:build",
+    "electron:build-win": "vue-cli-service electron:build --win --x64",
+    "electron:build-mac": "vue-cli-service electron:build --mac",
+    "electron:build-linux": "vue-cli-service electron:build --linux",
+```
+
 ## 参考
 
 [最简洁Vue+Electron项目搭建教程](https://zhuanlan.zhihu.com/p/335225253)
