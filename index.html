@@ -1,148 +1,164 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="UTF-8" />
 
-<head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" href="./_media/backup/vue.css"> -->
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css"
+    />
+    <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/buble.css"> -->
+    <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css"> -->
+    <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/pure.css"> -->
+    <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dolphin.css"> -->
 
-  <!-- <link rel="stylesheet" href="./_media/backup/vue.css"> -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/buble.css"> -->
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css"> -->
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/pure.css"> -->
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dolphin.css"> -->
+    <!-- <link rel="stylesheet" href="./_media/backup/sidebar.min.css"> -->
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css"
+    />
 
-  <!-- <link rel="stylesheet" href="./_media/backup/sidebar.min.css"> -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+    <!-- [禁用 toc] toc 插件与 gitalk 插件在显示上存在冲突 -->
+    <!-- <link rel="stylesheet" href="./_media/backup/toc.css"> -->
+    <!-- <link rel="stylesheet" href="//unpkg.com/docsify-toc@1.0.0/dist/toc.css"> -->
 
-  <!-- [禁用 toc] toc 插件与 gitalk 插件在显示上存在冲突 -->
-  <!-- <link rel="stylesheet" href="./_media/backup/toc.css"> -->
-  <!-- <link rel="stylesheet" href="//unpkg.com/docsify-toc@1.0.0/dist/toc.css"> -->
+    <!-- <link rel="stylesheet" href="./_media/backup/jsmind.css"> -->
 
-  <!-- <link rel="stylesheet" href="./_media/backup/jsmind.css"> -->
+    <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css" />
 
-  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
-
-  <!-- <script type="text/javascript" src="./_media/backup/jsmind.js"></script>
+    <!-- <script type="text/javascript" src="./_media/backup/jsmind.js"></script>
   <script type="text/javascript" src="./_media/backup/jsmind.draggable.js"></script> -->
 
-</head>
+    <!-- 公式插件 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/katex/dist/katex.min.css"
+    />
+  </head>
 
-<body>
-  <div id="app">加载中</div>
+  <body>
+    <div id="app">加载中</div>
 
-  <script>
-    window.$docsify = {
-      // 侧边栏显示名字和logo, name和logo只能选择其一
-      name: 'Jxrory Blog',
-      // logo: '/_media/notebook-32.svg', // from https://www.iconfont.cn/ @陈福梅CFM
-      repo: 'https://github.com/Jxrory/jxrory.github.io/', // 左上角github挂件
+    <script>
+      window.$docsify = {
+        // 侧边栏显示名字和logo, name和logo只能选择其一
+        name: "Jxrory Blog",
+        // logo: '/_media/notebook-32.svg', // from https://www.iconfont.cn/ @陈福梅CFM
+        repo: "https://github.com/Jxrory/jxrory.github.io/", // 左上角github挂件
 
-      auto2top: true,
-      
-      // 定制首页
-      coverpage: true,
-      onlyCover: true, // 单独将封面作为首页
+        auto2top: true,
 
-      // 定制侧边栏
-      loadSidebar: true,
-      subMaxLevel: 1, // 开启二级标题目录
-      sidebarDisplayLevel: 1, // set sidebar display level
+        // 定制首页
+        coverpage: true,
+        onlyCover: true, // 单独将封面作为首页
 
+        // 定制侧边栏
+        loadSidebar: true,
+        subMaxLevel: 1, // 开启二级标题目录
+        sidebarDisplayLevel: 1, // set sidebar display level
 
-      // [插件]代码复制插件
-      copyCode: {
-        buttonText: '点击复制',
-        errorText: '错误',
-        successText: '复制'
-      },
+        // [插件]代码复制插件
+        copyCode: {
+          buttonText: "点击复制",
+          errorText: "错误",
+          successText: "复制",
+        },
 
-      // load from _footer.md
-      loadFooter: true,
-      // Or load from _footer.md
-      loadFooter: '_footer.md',
-    }
-  </script>
-  <!-- <script src="./_media/backup/docsify.min.js"></script> -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+        // load from _footer.md
+        loadFooter: true,
+        // Or load from _footer.md
+        loadFooter: "_footer.md",
+      };
+    </script>
+    <!-- <script src="./_media/backup/docsify.min.js"></script> -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 
-  <!-- 代码复制插件 -->
-  <!-- 代码拷贝 -->
-  <!-- <script src="./_media/backup/docsify-copy-code.min.js"></script> -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+    <!-- 代码复制插件 -->
+    <!-- 代码拷贝 -->
+    <!-- <script src="./_media/backup/docsify-copy-code.min.js"></script> -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
 
-  <!-- 侧边栏折叠展开 -->
-  <!-- <script src="./_media/backup/docsify-sidebar-collapse.min.js"></script> -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+    <!-- 侧边栏折叠展开 -->
+    <!-- <script src="./_media/backup/docsify-sidebar-collapse.min.js"></script> -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 
-  <!-- [禁用 toc] 目录 -->
-  <!-- <script src="./_media/backup/toc.js"></script> -->
-  <!-- <script src="//unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script> -->
+    <!-- [禁用 toc] 目录 -->
+    <!-- <script src="./_media/backup/toc.js"></script> -->
+    <!-- <script src="//unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script> -->
 
-  <!-- <script src="./_media/backup/docsify-jsmind.js"></script> -->
+    <!-- <script src="./_media/backup/docsify-jsmind.js"></script> -->
 
-  <!-- 
+    <!-- 
     代码高亮插件: 默认支持的语言
       Markup - markup, html, xml, svg, mathml, ssml, atom, rss
       CSS - css
       C-like - clike
       JavaScript - javascript, js
   -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
 
-  <!-- 页尾标志 -->
-  <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
+    <!-- 页尾标志 -->
+    <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
 
-  <!-- 插件: 评论 -->
-  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
-  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
-  <script src="_media/backup/md5.min.js"></script>
-  <script>
-    function url_parse(url) {
-      var left = url.indexOf('/#/');
-      if(left < 0) {
-        return url;
+    <!-- 公式插件 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/katex/dist/katex.min.css"
+    />
+
+    <!-- 插件: 评论 -->
+    <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+    <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script src="_media/backup/md5.min.js"></script>
+    <script>
+      function url_parse(url) {
+        var left = url.indexOf("/#/");
+        if (left < 0) {
+          return url;
+        }
+
+        left += 3; // 剔除 '/#/' 字符串
+
+        var right = url.lastIndexOf("?");
+        if (right <= 0 || right < left) {
+          right = url.length;
+        }
+        return url.substring(left, right);
       }
 
-      left += 3; // 剔除 '/#/' 字符串
-
-      var right = url.lastIndexOf('?');
-      if (right <= 0 || right < left) {
-        right = url.length;
+      function get_talk_id() {
+        gittalk_id = url_parse(location.href);
+        console.log("href", location.href, "id", gittalk_id);
+        if (gittalk_id.length > 45) {
+          gittalk_id = md5(gittalk_id);
+        }
+        return gittalk_id;
       }
-      return url.substring(left, right);
-    }
 
-    function get_talk_id() {
-      gittalk_id = url_parse(location.href);
-      console.log('href', location.href, 'id', gittalk_id);
-      if(gittalk_id.length > 45) {
-        gittalk_id = md5(gittalk_id);
-      }
-      return gittalk_id;
-    }
-    
-    const gitalk = new Gitalk({
-      clientID: '992e01df1b1e28faf205',
-      clientSecret: '8ddb10325db7a4f1a9fb53442d58df236df1ef3e',
-      repo: 'jxrory-talk',
-      owner: 'Jxrory',
-      admin: ['Jxrory'],
-      id: get_talk_id(),
-      title: get_talk_id(),
-      // facebook-like distraction free mode
-      distractionFreeMode: false
-    })
+      const gitalk = new Gitalk({
+        clientID: "992e01df1b1e28faf205",
+        clientSecret: "8ddb10325db7a4f1a9fb53442d58df236df1ef3e",
+        repo: "jxrory-talk",
+        owner: "Jxrory",
+        admin: ["Jxrory"],
+        id: get_talk_id(),
+        title: get_talk_id(),
+        // facebook-like distraction free mode
+        distractionFreeMode: false,
+      });
 
-    // 刷新页面更新评论信息
-    window.onhashchange = function (event) {
-      if (url_parse(event.newURL) !== url_parse(event.oldURL)) {
-        location.reload()
-      }
-    }
-  </script>
-</body>
-
+      // 刷新页面更新评论信息
+      window.onhashchange = function (event) {
+        if (url_parse(event.newURL) !== url_parse(event.oldURL)) {
+          location.reload();
+        }
+      };
+    </script>
+  </body>
 </html>
