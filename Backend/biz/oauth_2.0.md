@@ -54,7 +54,7 @@ https://b.com/oauth/token?
 4. B 网站收到请求以后，就会颁发令牌。具体做法是向`redirect_uri`指定的网址，发送一段 JSON 数据.
 
 ```json
-{    
+{
   "access_token":"ACCESS_TOKEN",
   "token_type":"bearer",
   "expires_in":2592000,

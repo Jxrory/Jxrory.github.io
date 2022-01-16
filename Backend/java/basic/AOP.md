@@ -1,6 +1,6 @@
 # AOP
 
-## 什么是AOP
+## 什么是 AOP
 
 AOP(Aspect oriented programming)：面向切面编程。
 
@@ -11,11 +11,12 @@ AOP 主要用来解决：在不改变原有业务逻辑的情况下，增强横�
 ## 实现原理
 
 代理模式包含如下角色:
+
 > `subject`: 抽象主题角色，是一个接口。该接口是对象和它的代理共用的接口;
 >
 > `RealSubject`: 真实主题角色，是实现抽象主题接口的类;
 >
-> `Proxy`: 代理角色，内部含有对真实对象RealSubject的引用，从而可以操作真实对象。
+> `Proxy`: 代理角色，内部含有对真实对象 RealSubject 的引用，从而可以操作真实对象。
 
 ![aop](../_images/aop-1.jpg)
 
@@ -23,7 +24,7 @@ AOP 主要用来解决：在不改变原有业务逻辑的情况下，增强横�
 
 ### 静态代理
 
-创建一个Person接口.
+创建一个 Person 接口.
 
 ```java
 /**
@@ -35,7 +36,7 @@ public interface Person {
 }
 ```
 
-Student类实现Person接口，Student可以具体实施交作业这个行为
+Student 类实现 Person 接口，Student 可以具体实施交作业这个行为
 
 ```java
 public class Student implements Person {
@@ -50,7 +51,7 @@ public class Student implements Person {
 }
 ```
 
-StudentsProxy类，这个类也实现了Person接口，但是还另外持有一个学生类对象，那么他可以代理学生类对象执行交作业的行为。
+StudentsProxy 类，这个类也实现了 Person 接口，但是还另外持有一个学生类对象，那么他可以代理学生类对象执行交作业的行为。
 
 ```java
 /**
@@ -97,7 +98,7 @@ public class StaticProxyTest {
 
 相比于静态代理，动态代理的优势在于可以很方便的对代理类的函数进行统一的处理，而不用修改每个代理类中的方法。比如我们想在每个代理方法之前都加一个处理方法，我们上面的例子中只有一个代理方法，如果还有很多的代理方法，就太麻烦了.
 
-首先还是定义一个Person接口:
+首先还是定义一个 Person 接口:
 
 ```java
 /**
@@ -172,7 +173,7 @@ public class ProxyTest {
 }
 ```
 
-首先我们创建了一个需要被代理的学生林浅，将林浅传入stuHandler中，我们在创建代理对象stuProxy时，将stuHandler作为参数，那么所有执行代理对象的方法都会被替换成执行invoke方法，也就是说，最后执行的是StuInvocationHandler中的invoke方法。
+首先我们创建了一个需要被代理的学生林浅，将林浅传入 stuHandler 中，我们在创建代理对象 stuProxy 时，将 stuHandler 作为参数，那么所有执行代理对象的方法都会被替换成执行 invoke 方法，也就是说，最后执行的是 StuInvocationHandler 中的 invoke 方法。
 
 ## 参考
 

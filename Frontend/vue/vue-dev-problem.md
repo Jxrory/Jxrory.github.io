@@ -22,5 +22,5 @@ devServer: {
 
 ## 参考
 
-[vue.config.js解决跨域问题](https://www.cnblogs.com/whoamimy/p/11945474.html)
-[vue 解决axios请求出现前端跨域问题](https://www.cnblogs.com/maoqian/p/15450336.html)
+[vue.config.js 解决跨域问题](https://www.cnblogs.com/whoamimy/p/11945474.html)
+[vue 解决 axios 请求出现前端跨域问题](https://www.cnblogs.com/maoqian/p/15450336.html)

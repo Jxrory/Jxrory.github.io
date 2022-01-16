@@ -1,6 +1,6 @@
 # electron 中使用 vue
 
-## 搭建vue环境
+## 搭建 vue 环境
 
 需要先安装 vue 命令行, 如果已经安装自行跳过.
 
@@ -15,7 +15,7 @@ npm install -g @vue/cli
 vue create my-project
 ```
 
-## 配置Electron
+## 配置 Electron
 
 ```bash
 cd my-project
@@ -42,5 +42,5 @@ npm run electron:serve
 
 ## 参考
 
-[最简洁Vue+Electron项目搭建教程](https://zhuanlan.zhihu.com/p/335225253)
-[electron+vue开发项目总结](https://juejin.cn/post/7012894751116492814)
+[最简洁 Vue+Electron 项目搭建教程](https://zhuanlan.zhihu.com/p/335225253)
+[electron+vue 开发项目总结](https://juejin.cn/post/7012894751116492814)

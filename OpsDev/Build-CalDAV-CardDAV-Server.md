@@ -128,10 +128,9 @@ Re-type new password:
 
 ## 问题: TODO
 
-- [X] Mac和iOS系统的日历系统还是无法同步
+- [x] Mac 和 iOS 系统的日历系统还是无法同步
 
-!> 开启nginx反向代理 + ssl
-
+!> 开启 nginx 反向代理 + ssl
 
 ## 杂记
 

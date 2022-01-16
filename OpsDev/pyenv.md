@@ -1,10 +1,10 @@
 # pyenv
 
-python 版本管理神器, 可以在多个python版本之间切换
+python 版本管理神器, 可以在多个 python 版本之间切换
 
 ## 安装
 
-使用git安装
+使用 git 安装
 
 ```bash
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
@@ -52,14 +52,14 @@ echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc
 pyenv --version
 ```
 
-- **查看当前使用的python版本**
+- **查看当前使用的 python 版本**
 
 ```bash
-pyenv version 
+pyenv version
 #system (set by /root/.pyenv/version)  # system表示系统安装的版本
 ```
 
-- **安装python**
+- **安装 python**
 
 ```bash
 pyenv install 3.6.8
@@ -85,7 +85,7 @@ pyenv global 3.6.2
 pyenv uninstall 3.6.2
 ```
 
-- **查看所有pyenv的指令**
+- **查看所有 pyenv 的指令**
 
 ```bash
 pyenv commands

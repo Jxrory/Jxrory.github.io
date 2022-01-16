@@ -4,7 +4,7 @@
 
 ### 问题描述
 
-spring-boot 整合quartz的时候, 启动就报错：`Failure obtaining db row lock: Table ‘test.QRTZ_LOCKS’ doesn’t exist`
+spring-boot 整合 quartz 的时候, 启动就报错：`Failure obtaining db row lock: Table ‘test.QRTZ_LOCKS’ doesn’t exist`
 
 数据库中是有 `qrtz_locks` 表的.
 
@@ -12,7 +12,7 @@ spring-boot 整合quartz的时候, 启动就报错：`Failure obtaining db row l
 
 #### 方案一
 
-最快的解决办法，就是将所有quartz开头的表，都换成大写就好了
+最快的解决办法，就是将所有 quartz 开头的表，都换成大写就好了
 
 #### 方案二
 
@@ -24,7 +24,7 @@ spring-boot 整合quartz的时候, 启动就报错：`Failure obtaining db row l
 show variables like '%lower_case_table_names%';
 ```
 
-**2. 修改/etc/my.cnf文件**:
+**2. 修改/etc/my.cnf 文件**:
 
 在文件末尾加`lower_case_table_names=1`
 

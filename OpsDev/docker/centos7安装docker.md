@@ -33,7 +33,7 @@ yum-config-manager \
 yum install docker-ce docker-ce-cli containerd.io
 ```
 
-安装特定版本docker
+安装特定版本 docker
 
 ```bash
 # 查看docker版本

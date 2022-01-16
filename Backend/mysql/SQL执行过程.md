@@ -1,15 +1,17 @@
-# SQL执行过程
+# SQL 执行过程
 
 ![sql 架构图](./_images/sqlite-arch2.gif)
 
 大致可以分成两类:
 
 - 前端
+
   - tokenizer
   - parser
   - code generator
 
 - 后端
+
   - virtual machine
   - B-tree
   - pager

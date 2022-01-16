@@ -2,11 +2,11 @@
 
 ## 创建仓库
 
-在github上创建一个仓库, **仓库的名字 `{username}`.github.io**, `{username}`需要替换成自己的用户名.
+在 github 上创建一个仓库, **仓库的名字 `{username}`.github.io**, `{username}`需要替换成自己的用户名.
 
 ![github create github.io repo](./_images/github-io-create-repo.png)
 
-!> 注意: 将 `{username}` 换成自己的用户名, 我的github.io 仓库已经存在, 所以无法创建!!
+!> 注意: 将 `{username}` 换成自己的用户名, 我的 github.io 仓库已经存在, 所以无法创建!!
 
 ## 克隆仓库
 

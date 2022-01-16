@@ -8,7 +8,7 @@
 >
 > 清华镜像：https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git
 >
-> GitHub镜像：https://github.com/Homebrew/brew.git
+> GitHub 镜像：https://github.com/Homebrew/brew.git
 
 ### homebrew-core.git 镜像
 
@@ -16,7 +16,7 @@
 >
 > 清华镜像：https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git
 >
-> GitHub镜像：https://github.com/Homebrew/homebrew-core
+> GitHub 镜像：https://github.com/Homebrew/homebrew-core
 
 ## 替换 Homebrew 镜像源
 

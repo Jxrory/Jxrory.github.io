@@ -21,7 +21,7 @@ curl  https://get.acme.sh | sh -s email=my@example.com
 
 ### http
 
-!> 只能申请单个域名, 泛域名需要用dns方式申请
+!> 只能申请单个域名, 泛域名需要用 dns 方式申请
 
 ```bash
 acme.sh  --issue  -d mydomain.com -d www.mydomain.com  --webroot  /home/wwwroot/mydomain.com/
@@ -51,7 +51,7 @@ acme.sh  --renew   -d mydomain.com \
 
 #### 自动方式
 
-!> 需要DNS服务商提供 api 支持
+!> 需要 DNS 服务商提供 api 支持
 
 以 dnspod 为例, 你需要先登录到 dnspod 账号, 生成你的 api id 和 api key, 都是免费的. 然后:
 
@@ -71,10 +71,10 @@ acme.sh  --issue   -d  mydomain2.com   --dns  dns_dp
 
 ### copy/安装 证书
 
-| 文件名 | 简述 |
+| 文件名        | 简述                                     |
 | ------------- | ---------------------------------------- |
 | ca.cer        | 中间证书和根证书                         |
-| nginx.cn.cer  | 你申请的ssl证书                          |
+| nginx.cn.cer  | 你申请的 ssl 证书                        |
 | fullchain.cer | 包括了 ca.cer 和 nginx.cn.cer 的全链证书 |
 | nginx.cn.key  | 证书的私钥                               |
 
@@ -122,6 +122,6 @@ acme.sh --upgrade  --auto-upgrade  0
 ## 参考
 
 [acme.sh wiki](https://github.com/acmesh-official/acme.sh/wiki/%E8%AF%B4%E6%98%8E)
-[腾讯云域名使用acme.sh签发letsencrypt的wildcard](https://blog.axis-studio.org/2019/04/05/%E8%85%BE%E8%AE%AF%E4%BA%91%E5%9F%9F%E5%90%8D%E4%BD%BF%E7%94%A8acme-sh%E7%AD%BE%E5%8F%91letsencrypt%E7%9A%84wildcard/index.html)
+[腾讯云域名使用 acme.sh 签发 letsencrypt 的 wildcard](https://blog.axis-studio.org/2019/04/05/%E8%85%BE%E8%AE%AF%E4%BA%91%E5%9F%9F%E5%90%8D%E4%BD%BF%E7%94%A8acme-sh%E7%AD%BE%E5%8F%91letsencrypt%E7%9A%84wildcard/index.html)
 [dns-api](https://github.com/acmesh-official/acme.sh/wiki/dnsapi#2-dnspodcn-option)
 [根证书、服务器证书、用户证书的区别](https://www.nginx.cn/5559.html)

@@ -16,7 +16,7 @@ Host github.com-user2
     IdentityFile ~/.ssh/github-user2
 ```
 
-## 配置本地git库信息
+## 配置本地 git 库信息
 
 ```bash
 git remote set-url origin git@github.com-user1:user1/your-repo-name.git

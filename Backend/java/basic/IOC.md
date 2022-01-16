@@ -1,6 +1,6 @@
 # IOC
 
-## 什么是IOC
+## 什么是 IOC
 
 IOC(Inversion of control): 控制反转, 描述的是：Java 开发领域对象的创建以及管理的问题。
 

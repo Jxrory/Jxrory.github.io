@@ -54,7 +54,7 @@ ECC 是非对称加密里的 “后起之秀”，它基于 “椭圆曲线离�
  1.浏览器向服务器发送随机数 client_random，TLS 版本和供筛选的加密套件列表。
  2.服务器接收到，立即返回 server_random，确认好双方都支持的加密套件
  以及数字证书 (证书中附带公钥 Public key certificate)。
- 3.浏览器接收，先验证数字证书。若通过，接着使用加密套件的密钥协商算法 RSA 
+ 3.浏览器接收，先验证数字证书。若通过，接着使用加密套件的密钥协商算法 RSA
  算法生成另一个随机数 pre_random，并且用证书里的公钥加密，传给服务器。
  4.服务器用私钥解密这个被加密后的 pre_random，参考 “非对称加密”。
 ```
@@ -73,30 +73,20 @@ ECC 是非对称加密里的 “后起之秀”，它基于 “椭圆曲线离�
 ![TLS Handshake HD](./_images/TLS-Handshake-HD.png)
 
 ```markdown
- 1.浏览器向服务器发送随机数 client_random，TLS 版本和供筛选的加密套件列表。
+1.浏览器向服务器发送随机数 client_random，TLS 版本和供筛选的加密套件列表。
 
 // RSA
--2.服务器接收到，立即返回 server_random，确认好双方都支持的加密套件
--以及数字证书 (证书中附带公钥)。
+-2.服务器接收到，立即返回 server_random，确认好双方都支持的加密套件 -以及数字证书 (证书中附带公钥)。
 // DH
-+2.服务器接收到，立即返回 server_random，确认好双方都支持的加密套件
-+以及数字证书 (证书中附带公钥)。
-+同时服务器利用私钥将 client_random，server_random，server_params 签名，
-+生成服务器签名。然后将签名和 server_params 也发送给客户端。 
-+这里的 server_params 为 DH 算法所需参数。
++2.服务器接收到，立即返回 server_random，确认好双方都支持的加密套件 +以及数字证书 (证书中附带公钥)。 +同时服务器利用私钥将 client_random，server_random，server_params 签名， +生成服务器签名。然后将签名和 server_params 也发送给客户端。 +这里的 server_params 为 DH 算法所需参数。
 
 // RSA
--3.浏览器接收，先验证数字证书。
--若通过，接着使用加密套件的密钥协商算法 RSA 算法
--生成另一个随机数 pre_random，并且用证书里的公钥加密，传给服务器。
+-3.浏览器接收，先验证数字证书。 -若通过，接着使用加密套件的密钥协商算法 RSA 算法 -生成另一个随机数 pre*random，并且用证书里的公钥加密，传给服务器。
 // DH
-+3.浏览器接收，先验证数字证书和 _签名_。
-+若通过，将 client_params 传递给服务器。
-+这里的 client_params 为 DH 算法所需参数。
++3.浏览器接收，先验证数字证书和 *签名\_。 +若通过，将 client_params 传递给服务器。 +这里的 client_params 为 DH 算法所需参数。
 
 -4.服务器用私钥解密这个被加密后的 pre_random，参考 “非对称加密”。
-+4.现在客户端和服务器都有 client_params、server_params 两个参数，
-+因 ECDHE 计算基于 “椭圆曲线离散对数”，通过这两个 DH 参数就能计算出 pre_random。
++4.现在客户端和服务器都有 client_params、server_params 两个参数， +因 ECDHE 计算基于 “椭圆曲线离散对数”，通过这两个 DH 参数就能计算出 pre_random。
 ```
 
 现在浏览器和服务器都拥有三样相同的凭证：client_random、server_random 和 pre_random，后续步骤与 RSA 握手一致。
@@ -136,4 +126,4 @@ DH 握手前向安全性
 ## 参考
 
 [TLS 详解握手流程](https://juejin.cn/post/6895624327896432654)
-[图解TLS握手连接](https://cloud.tencent.com/developer/article/1593352)
+[图解 TLS 握手连接](https://cloud.tencent.com/developer/article/1593352)

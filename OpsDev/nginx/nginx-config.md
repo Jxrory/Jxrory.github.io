@@ -1,13 +1,13 @@
 # nginx config
 
-## nginx的location优先级
+## nginx 的 location 优先级
 
 参考: [https://cloud.tencent.com/developer/article/1119218](https://cloud.tencent.com/developer/article/1119218)
 
-**在nginx配置文件中，location主要有这几种形式**:
+**在 nginx 配置文件中，location 主要有这几种形式**:
 
 1. 正则匹配 location ~ /abc { }
-2. 不区分大小写的正则匹配 location ~* /abc { }
+2. 不区分大小写的正则匹配 location ~\* /abc { }
 3. 匹配路径的前缀，如果找到停止搜索 location ^~ /abc { }
 4. 精确匹配 location = /abc { }
 5. 普通路径前缀匹配 location /abc { }
@@ -49,4 +49,4 @@
 
 ## 参考
 
-[nginx配置80端口转发到443](https://www.cnblogs.com/huningfei/p/12971693.html)
+[nginx 配置 80 端口转发到 443](https://www.cnblogs.com/huningfei/p/12971693.html)

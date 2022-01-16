@@ -39,21 +39,24 @@ docsify serve docs
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
-</head>
-<body>
-  <div id="app"></div>
-  <script>
-    window.$docsify = {
-      //...
-    }
-  </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-</body>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css"
+    />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        //...
+      };
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  </body>
 </html>
 ```
 
@@ -98,19 +101,19 @@ docs/zh-cn/guide.md   => http://domain.com/zh-cn/guide
 
 <script>
   window.$docsify = {
-    loadSidebar: true
-  }
+    loadSidebar: true,
+  };
 </script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 ```
 
-接着创建 _sidebar.md 文件，内容如下
+接着创建 \_sidebar.md 文件，内容如下
 
 ```markdown
 <!-- docs/_sidebar.md -->
 
-* [首页](zh-cn/)
-* [指南](zh-cn/guide)
+- [首页](zh-cn/)
+- [指南](zh-cn/guide)
 ```
 
 ### 显示目录
@@ -123,8 +126,8 @@ docs/zh-cn/guide.md   => http://domain.com/zh-cn/guide
 <script>
   window.$docsify = {
     loadSidebar: true,
-    subMaxLevel: 2
-  }
+    subMaxLevel: 2,
+  };
 </script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 ```
@@ -164,8 +167,8 @@ docs/zh-cn/guide.md   => http://domain.com/zh-cn/guide
 
 <script>
   window.$docsify = {
-    coverpage: true
-  }
+    coverpage: true,
+  };
 </script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 ```

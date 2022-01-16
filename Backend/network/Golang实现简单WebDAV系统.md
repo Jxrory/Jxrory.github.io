@@ -1,10 +1,10 @@
-# Golang 实现简单WebDAV系统
+# Golang 实现简单 WebDAV 系统
 
-**WebDAV （Web-based Distributed Authoring and Versioning）** 一种基于HTTP1.1协议的通信协议。它扩展了HTTP 1.1，在GET、POST、HEAD等几个HTTP标准方法以外添加了一些新的方法，使应用程序可对Web Server直接读写，并支持写文件锁定(Locking)及解锁(Unlock)，还可以支持文件的版本控制。
+**WebDAV （Web-based Distributed Authoring and Versioning）** 一种基于 HTTP1.1 协议的通信协议。它扩展了 HTTP 1.1，在 GET、POST、HEAD 等几个 HTTP 标准方法以外添加了一些新的方法，使应用程序可对 Web Server 直接读写，并支持写文件锁定(Locking)及解锁(Unlock)，还可以支持文件的版本控制。
 
 [Caddy](https://caddyserver.com/)
 
-## Go实现WebDAV
+## Go 实现 WebDAV
 
 ### 初版
 
@@ -139,4 +139,4 @@ func main() {
 
 ## 参考
 
-[Golang 实现简单WebDAV系统](https://www.cnblogs.com/singinger/p/13433780.html)
+[Golang 实现简单 WebDAV 系统](https://www.cnblogs.com/singinger/p/13433780.html)

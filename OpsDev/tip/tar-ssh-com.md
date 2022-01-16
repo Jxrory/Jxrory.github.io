@@ -1,4 +1,4 @@
-# tar命令和ssh配合使用
+# tar 命令和 ssh 配合使用
 
 传输到远程：tar czf - file| ssh server "tar zxf -"
 
