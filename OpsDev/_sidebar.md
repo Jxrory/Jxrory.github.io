@@ -10,7 +10,7 @@
 - Tip
 
   - [SSH Config](/OpsDev/tip/ssh-config.md)
-  - [pip 换源](/OpsDev/tip/pip换源.md)
+  - [pip 换源](/Backend/python/pip换源.md)
   - [homebrew 换源](/OpsDev/tip/homebrew换源.md)
 
 - Docker

@@ -25,6 +25,11 @@
     - [并发基础](/Backend/java/multi_thread/并发基础.md)
     - [线程池-Executor 框架](/Backend/java/multi_thread/线程池-Executor框架.md)
 
+- [Python](/Backend/python/README.md)
+
+  - [版本管理神器 - Pyenv](/Backend/python/pyenv.md)
+  - [项目管理与构建工具](/Backend/python/项目管理与构建工具.md)
+
 - 分布式
 
   - [分布式 ID](/Backend/distributed/分布式ID.md)

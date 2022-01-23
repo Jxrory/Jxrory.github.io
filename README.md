@@ -49,7 +49,7 @@
 - [docsify 快速构建博客站点](/OpsDev/docsify-快速构建博客站点.md)
 - [acme.sh 安装和使用](/OpsDev/ssl-acme.sh.md)
 - [SSH Config](/OpsDev/tip/ssh-config.md)
-- [pip 换源](/OpsDev/tip/pip换源.md)
+- [pip 换源](/Backend/python/pip换源.md)
 - [homebrew 换源](/OpsDev/tip/homebrew换源.md)
 
 ## [网络](/Backend/network/README.md)

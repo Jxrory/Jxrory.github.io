@@ -4,6 +4,8 @@
 
 [Java](./java/README.md ":include")
 
+[Python](./python/README.md ":include")
+
 [Redis](./redis/README.md ":include")
 
 [分布式](./distributed/README.md ":include")
