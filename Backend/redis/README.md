@@ -1,5 +1,7 @@
 ### ![](../../_media/icon/redis-23.svg) Redis
 
+- [Redis 命令行使用](/Backend/redis/redis命令行使用.md)
+
 - [过期删除策略和内存淘汰策略](/Backend/redis/过期删除策略和内存淘汰策略.md)
 - [缓存穿透-击穿-雪崩](/Backend/redis/缓存穿透-击穿-雪崩.md)
 - [Redis 集群方案](/Backend/redis/Redis集群方案.md)
