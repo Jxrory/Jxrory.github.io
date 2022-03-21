@@ -34,3 +34,7 @@
 ## SSH
 
 - [SSH 命令使用问题汇总](/OpsDev/ssh-cmd-use-problem.md)
+
+## 服务器搭建
+
+- [邮件服务器搭建](/OpsDev/email/搭建邮件服务器.md)
