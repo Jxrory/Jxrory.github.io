@@ -125,5 +125,5 @@ DH 握手前向安全性
 
 ## 参考
 
-[TLS 详解握手流程](https://juejin.cn/post/6895624327896432654)
-[图解 TLS 握手连接](https://cloud.tencent.com/developer/article/1593352)
+- [TLS 详解握手流程](https://juejin.cn/post/6895624327896432654)
+- [图解 TLS 握手连接](https://cloud.tencent.com/developer/article/1593352)

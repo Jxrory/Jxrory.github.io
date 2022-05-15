@@ -98,7 +98,7 @@ TCP 规定，在连接建立后所有传送的报文段都必须把 ACK 设置�
 
 ## 参考
 
-[TCP 报文格式](https://www.cnblogs.com/shineyoung/p/10656914.html)
-[理解 TCP（二）：报文结构](https://www.jianshu.com/p/421dd948a42a)
-[TCP 报文格式详解](https://www.cnblogs.com/feng9exe/p/8058891.html)
-[TCP 三次握手四次挥手详解](https://zhuanlan.zhihu.com/p/40013850)
+- [TCP 报文格式](https://www.cnblogs.com/shineyoung/p/10656914.html)
+- [理解 TCP（二）：报文结构](https://www.jianshu.com/p/421dd948a42a)
+- [TCP 报文格式详解](https://www.cnblogs.com/feng9exe/p/8058891.html)
+- [TCP 三次握手四次挥手详解](https://zhuanlan.zhihu.com/p/40013850)

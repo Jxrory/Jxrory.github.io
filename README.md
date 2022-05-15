@@ -1,8 +1,19 @@
 # ![](/_media/icon/notebook-32.svg) Jxrory Blog <!-- {docsify-ignore-all} -->
 
+<!--
 ## Diy
 
 推荐一个相当不错的仓库, 自己动手实现想要的东西: [Build your own X](https://github.com/danistefanovic/build-your-own-x/blob/master/README.md)
+-->
+
+## 基础
+
+### [网络](/Basic/network/README.md)
+
+- [HTTP 数据报格式](/BacBasickend/network/http网络数据报.md)
+- [TCP 3 次握手 4 次挥手](/Basic/network/tcp三次握手4次挥手.md)
+- [SSL/TLS 握手连接](/Basic/network/TLS握手.md)
+- [RESTful API](/Basic/network/RESTfulAPI.md)
 
 ## Backend
 
@@ -42,12 +53,6 @@
 - [分布式锁](/Backend/distributed/分布式锁.md)
 - [分布式事务](/Backend/distributed/分布式事务.md)
 - [接口幂等](/Backend/distributed/接口幂等.md)
-
-## [网络](/Basic/network/README.md)
-
-- [HTTP 数据报格式](/BacBasickend/network/http网络数据报.md)
-- [TCP 3 次握手 4 次挥手](/Basic/network/tcp三次握手4次挥手.md)
-- [RESTful API](/Basic/network/RESTfulAPI.md)
 
 ## [![](/_media/icon/tools-23.svg) OpsDev](/OpsDev/README.md)
 

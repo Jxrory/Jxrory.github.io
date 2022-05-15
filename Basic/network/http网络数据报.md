@@ -223,7 +223,7 @@ URI 全名为 Uniform Resource Indentifier（统一资源标识），用来唯�
 
 ## 参考
 
-[以太网数据帧格式（结构）图解](http://c.biancheng.net/view/6391.html)
-[IP 数据报格式详解](http://c.biancheng.net/view/6411.html)
-[TCP 报文格式解析](http://c.biancheng.net/view/6441.html)
-[HTTP 协议数据包格式（报文段）](https://blog.csdn.net/qq_44938404/article/details/105577440)
+- [以太网数据帧格式（结构）图解](http://c.biancheng.net/view/6391.html)
+- [IP 数据报格式详解](http://c.biancheng.net/view/6411.html)
+- [TCP 报文格式解析](http://c.biancheng.net/view/6441.html)
+- [HTTP 协议数据包格式（报文段）](https://blog.csdn.net/qq_44938404/article/details/105577440)

@@ -34,4 +34,4 @@ Sec-WebSocket-Accept: server-random-string
 
 ## 参考
 
-[廖雪峰的官方网站 - WebSocket](https://www.liaoxuefeng.com/wiki/1022910821149312/1103303693824096)
+- [廖雪峰的官方网站 - WebSocket](https://www.liaoxuefeng.com/wiki/1022910821149312/1103303693824096)

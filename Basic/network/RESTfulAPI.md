@@ -199,5 +199,5 @@ Content-Type: application/json
 
 ## 参考
 
-[RESTful API](https://restfulapi.cn/)
-[restful.p2hp.com](http://restful.p2hp.com/home/rest-architectural-constraints)
+- [RESTful API](https://restfulapi.cn/)
+- [restful.p2hp.com](http://restful.p2hp.com/home/rest-architectural-constraints)
