@@ -140,20 +140,21 @@ icloud 任务颜色板
 
 ## 参考
 
-[Creating CalDAV & CardDAV Server](https://www.webdavsystem.com/server/creating_caldav_carddav/)
-[developing-a-caldav-server](https://stackoverflow.com/questions/14910553/developing-a-caldav-server)
-[Developing a CalDav server](https://tipsfordev.com/developing-a-caldav-server)
-[The Five Best Open Source Calendar Servers for Linux](https://www.linux.com/training-tutorials/five-best-open-source-calendar-servers-linux/)
+- [Creating CalDAV & CardDAV Server](https://www.webdavsystem.com/server/creating_caldav_carddav/)
+- [developing-a-caldav-server](https://stackoverflow.com/questions/14910553/developing-a-caldav-server)
+- [Developing a CalDav server](https://tipsfordev.com/developing-a-caldav-server)
+- [The Five Best Open Source Calendar Servers for Linux](https://www.linux.com/training-tutorials/five-best-open-source-calendar-servers-linux/)
 
 **搭建**:
 
-[install-radicale-caldav-server](https://automationadmin.com/2017/07/install-radicale-caldav-server/)
-[docker-radicale](https://github.com/xlrl/docker-radicale)
+- [install-radicale-caldav-server](https://automationadmin.com/2017/07/install-radicale-caldav-server/)
+- [docker-radicale](https://github.com/xlrl/docker-radicale)
 
 **官方权威文档**:
-[radicale - 文档](https://radicale.org/3.0.html)
+
+- [radicale - 文档](https://radicale.org/3.0.html)
 
 **项目**:
 
-[fennel :go](https://github.com/swordlordcodingcrew/fennel.git)
-[kcaldav :c](https://github.com/kristapsdz/kcaldav.git)
+- [fennel :go](https://github.com/swordlordcodingcrew/fennel.git)
+- [kcaldav :c](https://github.com/kristapsdz/kcaldav.git)

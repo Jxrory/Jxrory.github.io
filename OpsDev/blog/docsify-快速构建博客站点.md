@@ -41,8 +41,8 @@
     <script>
       window.$docsify = {
         // 侧边栏显示名字和logo, name和logo只能选择其一
-        name: "My Blog", // NOTE: 改成自己的Blog名字
-        repo: "https://github.com/Jxrory/jxrory.github.io/", // 左上角github挂件, NOTE: 改成自己的代码仓库
+        name: 'My Blog', // NOTE: 改成自己的Blog名字
+        repo: 'https://github.com/Jxrory/jxrory.github.io/', // 左上角github挂件, NOTE: 改成自己的代码仓库
 
         // 定制封面, 内容在 `_coverpage.md` 中
         coverpage: true, // 显示封面
@@ -51,7 +51,7 @@
         // 定制侧边栏
         loadSidebar: true, // 开启侧边栏
         subMaxLevel: 2, // 开启文章二级标题目录
-      };
+      }
     </script>
 
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
@@ -119,4 +119,4 @@
 
 ## 参考
 
-[docsify 中文官方文档](https://docsify.js.org/#/zh-cn/quickstart)
+- [docsify 中文官方文档](https://docsify.js.org/#/zh-cn/quickstart)

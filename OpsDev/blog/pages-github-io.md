@@ -36,7 +36,7 @@ git push -u origin main
 
 ## 验证
 
-访问: https://{username}.github.io
+访问: `https://{username}.github.io`
 
 !> 替换 `{username}` 为自己的用户名.
 
@@ -45,4 +45,4 @@ git push -u origin main
 
 ## 参考
 
-[github.io](github.io)
+- [github.io](github.io)

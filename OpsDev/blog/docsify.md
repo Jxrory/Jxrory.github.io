@@ -53,7 +53,7 @@ docsify serve docs
     <script>
       window.$docsify = {
         //...
-      };
+      }
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   </body>
@@ -102,7 +102,7 @@ docs/zh-cn/guide.md   => http://domain.com/zh-cn/guide
 <script>
   window.$docsify = {
     loadSidebar: true,
-  };
+  }
 </script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 ```
@@ -127,7 +127,7 @@ docs/zh-cn/guide.md   => http://domain.com/zh-cn/guide
   window.$docsify = {
     loadSidebar: true,
     subMaxLevel: 2,
-  };
+  }
 </script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 ```
@@ -168,7 +168,7 @@ docs/zh-cn/guide.md   => http://domain.com/zh-cn/guide
 <script>
   window.$docsify = {
     coverpage: true,
-  };
+  }
 </script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 ```
@@ -211,4 +211,4 @@ docs/zh-cn/guide.md   => http://domain.com/zh-cn/guide
 
 ## 参考
 
-[docsify docs](https://docsify.js.org/#/zh-cn/)
+- [docsify docs](https://docsify.js.org/#/zh-cn/)

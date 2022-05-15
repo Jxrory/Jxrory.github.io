@@ -19,6 +19,10 @@
 
 - [OpsDev](/OpsDev/README.md)
 
-  - [Tip: 实用小技巧](/OpsDev/README.md)
-  - [Blog 搭建](/OpsDev/pages-github-io.md)
-  - [SSL/TLS](/OpsDev/report-free-ssl.md)
+  - [Docker](/OpsDev/docker/centos7安装docker.md)
+  - [Nginx Config](/OpsDev/nginx/nginx-config.md)
+  - [acme.sh](/OpsDev/ssl-acme.sh.md)
+  - [SSH Config](/OpsDev/ssh/ssh-config.md)
+  - [邮件服务器搭建](/OpsDev/server/email/搭建邮件服务器.md)
+  - [homebrew 换源](/OpsDev/tip/homebrew换源.md)
+  - [systemctl](/OpsDev/systemctl.md)

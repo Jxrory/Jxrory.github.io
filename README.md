@@ -56,9 +56,10 @@
 
 ## [![](/_media/icon/tools-23.svg) OpsDev](/OpsDev/README.md)
 
-- [github 搭建自己的个人博客](/OpsDev/pages-github-io.md)
-- [docsify 快速构建博客站点](/OpsDev/docsify-快速构建博客站点.md)
-- [acme.sh 安装和使用](/OpsDev/ssl-acme.sh.md)
-- [SSH Config](/OpsDev/tip/ssh-config.md)
-- [pip 换源](/Backend/python/pip换源.md)
+- [Docker](/OpsDev/docker/centos7安装docker.md)
+- [Nginx Config](/OpsDev/nginx/nginx-config.md)
+- [acme.sh](/OpsDev/ssl-acme.sh.md)
+- [SSH Config](/OpsDev/ssh/ssh-config.md)
+- [邮件服务器搭建](/OpsDev/server/email/搭建邮件服务器.md)
 - [homebrew 换源](/OpsDev/tip/homebrew换源.md)
+- [systemctl](/OpsDev/systemctl.md)

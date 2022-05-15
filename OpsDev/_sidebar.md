@@ -2,17 +2,6 @@
 
 # OpsDev <!-- {docsify-ignore} -->
 
-- Blog 搭建
-
-  - [github 搭建自己的个人博客](/OpsDev/pages-github-io.md)
-  - [docsify 快速构建博客站点](/OpsDev/docsify-快速构建博客站点.md)
-
-- Tip
-
-  - [SSH Config](/OpsDev/tip/ssh-config.md)
-  - [pip 换源](/Backend/python/pip换源.md)
-  - [homebrew 换源](/OpsDev/tip/homebrew换源.md)
-
 - Docker
 
   - [centos7 安装 docker](/OpsDev/docker/centos7安装docker.md)
@@ -23,11 +12,31 @@
 
   - [nginx config](/OpsDev/nginx/nginx-config.md)
 
-- vpn
+- SSL
 
-  - [搭建 shadowsocks 服务器](/OpsDev/vpn/shadowsocks.md)
-  - [strongSwan 搭建 IKEv2 VPN 服务器](/OpsDev/vpn/strongSwan.md)
-
-- SSL/TLS
-  - [免费 ssl 调研报告](/OpsDev/report-free-ssl.md)
   - [acme.sh 安装和使用](/OpsDev/ssl-acme.sh.md)
+
+- SSH
+
+  - [SSH 命令使用问题汇总](/OpsDev/ssh/ssh-cmd-use-problem.md)
+  - [SSH Config](/OpsDev/ssh/ssh-config.md)
+  - [Github 多账户 SSH KEY 配置](/OpsDev/ssh/ssh-config-github.md)
+
+- 服务器搭建
+
+  - [邮件服务器搭建](/OpsDev/server/email/搭建邮件服务器.md)
+  - [CalDAV CardDAV 服务器搭建](/OpsDev/Build-CalDAV-CardDAV-Server.md)
+  - [httpd 正向代理服务器](/OpsDev/server/httpd-proxy-server.md)
+
+- Blog
+
+  - [github 搭建自己的个人博客](/OpsDev/blog/pages-github-io.md)
+  - [docsify 快速构建博客站点](/OpsDev/blog/docsify-快速构建博客站点.md)
+
+- Tip
+
+  - [pip 换源](/Backend/python/pip换源.md)
+  - [homebrew 换源](/OpsDev/tip/homebrew换源.md)
+
+- 其它
+  - [systemctl](/OpsDev/systemctl.md)
