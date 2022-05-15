@@ -1,4 +1,4 @@
-### Python
+### Python <!-- {docsify-ignore-all} -->
 
 - [pip 换源](/Backend/python/pip换源.md)
 - [版本管理神器 - Pyenv](/Backend/python/pyenv.md)

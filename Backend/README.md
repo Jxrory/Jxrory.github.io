@@ -6,6 +6,8 @@
 
 [Golang](./go/README.md ':include')
 
+[Rust](./rust/README.md ':include')
+
 [Python](./python/README.md ':include')
 
 [Redis](./redis/README.md ':include')

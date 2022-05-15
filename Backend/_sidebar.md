@@ -30,9 +30,15 @@
   - [版本管理神器 - Pyenv](/Backend/python/pyenv.md)
   - [项目管理与构建工具](/Backend/python/项目管理与构建工具.md)
 
+- Rust
+
+  - [新建一个项目](/Backend/rust/新建一个项目.md)
+
 - 分布式
 
   - [分布式 ID](/Backend/distributed/分布式ID.md)
+  - [限流算法](/Backend/distributed/限流算法.md)
+  - [CAP Base](/Backend/distributed/CAP_BASE.md)
 
 - 业务相关
 
