@@ -23,7 +23,7 @@
 - [过期删除策略和内存淘汰策略](/Backend/redis/过期删除策略和内存淘汰策略.md)
 - [缓存穿透-击穿-雪崩](/Backend/redis/缓存穿透-击穿-雪崩.md)
 
-## Java
+### Java
 
 - Basic
 
@@ -43,6 +43,12 @@
 - [分布式事务](/Backend/distributed/分布式事务.md)
 - [接口幂等](/Backend/distributed/接口幂等.md)
 
+## [网络](/Basic/network/README.md)
+
+- [HTTP 数据报格式](/BacBasickend/network/http网络数据报.md)
+- [TCP 3 次握手 4 次挥手](/Basic/network/tcp三次握手4次挥手.md)
+- [RESTful API](/Basic/network/RESTfulAPI.md)
+
 ## [![](/_media/icon/tools-23.svg) OpsDev](/OpsDev/README.md)
 
 - [github 搭建自己的个人博客](/OpsDev/pages-github-io.md)
@@ -51,9 +57,3 @@
 - [SSH Config](/OpsDev/tip/ssh-config.md)
 - [pip 换源](/Backend/python/pip换源.md)
 - [homebrew 换源](/OpsDev/tip/homebrew换源.md)
-
-## [网络](/Backend/network/README.md)
-
-- [RESTful API](/Backend/network/RESTfulAPI.md)
-- [HTTP 数据报格式](/Backend/network/http网络数据报.md)
-- [TCP 3 次握手 4 次挥手](/Backend/network/tcp三次握手4次挥手.md)
