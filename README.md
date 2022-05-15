@@ -54,6 +54,13 @@
 - [分布式事务](/Backend/distributed/分布式事务.md)
 - [接口幂等](/Backend/distributed/接口幂等.md)
 
+### 解决方案 & 业务理解记录
+
+- [地理反编码](/Backend/biz/geo-reverse.md)
+- [Oauth 2.0](/Backend/base/oauth_2.0.md)
+- [RBAC 模型：基于角色的权限控制](/Backend/base/RBAC_基于角色的权限控制.md)
+- [活动运营中心的设计](/Backend/biz/operationsActivity/活动运营中心的设计.md)
+
 ## [![](/_media/icon/tools-23.svg) OpsDev](/OpsDev/README.md)
 
 - [Docker](/OpsDev/docker/centos7安装docker.md)

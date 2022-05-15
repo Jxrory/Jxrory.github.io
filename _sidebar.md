@@ -14,7 +14,7 @@
   - [Java](/Backend/java/README.md)
   - [Mysql](/Backend/mysql/README.md)
   - [Redis](/Backend/redis/README.md)
-  - [Biz](/Backend/biz/README.md)
+  - [解决方案 & 业务理解](/Backend/biz/README.md)
   - [分布式](/Backend/distributed/README.md)
 
 - [OpsDev](/OpsDev/README.md)
