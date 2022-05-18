@@ -5,3 +5,4 @@
 
 - basic
   - [defer](/Backend/go/basic/defer.md)
+  - [channel](/Backend/go/basic/channel.md)
