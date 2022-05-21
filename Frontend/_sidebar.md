@@ -1,4 +1,4 @@
-# Frontend <!-- {docsify-ignore-all} -->
+# Frontend <!-- {docsify-ignore} -->
 
 - [css](/Frontend/css/README.md)
 
