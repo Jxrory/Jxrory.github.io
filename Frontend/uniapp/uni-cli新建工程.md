@@ -48,3 +48,4 @@ npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project
 ## 参考
 
 - [官网教程](https://uniapp.dcloud.io/worktile/CLI.html#uni-cli)
+- [vue-cli 版本过高导致的启动问题](https://ask.dcloud.net.cn/question/131747)
