@@ -13,7 +13,7 @@ font-family: 'Noto Sans SC';
 font-weight: 100;
 ```
 
-将数据本地化 **(备份)**: [备份压缩包数据](/_media/fontend/fonts/notosanssc.zip)
+将数据本地化 **(备份)**: [备份压缩包数据](/_media/frontend/fonts/notosanssc.zip)
 
 ## 参考
 
