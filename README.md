@@ -78,6 +78,10 @@
 - [跨域问题](/Frontend/basic/跨域问题.md)
 - [web 引入思源字体](/Frontend/basic/fonts-noto.md)
 
+### 算法
+
+- [CRC](/Alg/CRC/CRC.md)
+
 ### [css](/Frontend/css/README.md)
 
 - [flex 布局](/Frontend/css/flex.md)
