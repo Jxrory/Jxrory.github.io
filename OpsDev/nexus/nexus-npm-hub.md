@@ -15,6 +15,12 @@ docker run -d -p 6398:8081 --name jxrory-nexus -v nexus-data:/nexus-data sonatyp
 
 访问 [http://localhost:6398](http://localhost:6398)
 
+## 创建 Nexus 存储桶 (可选)
+
+![nexus-blob-create-select](_images/nexus-blob-create-select.jpg)
+
+![nexus-blob-create-conf](_images/nexus-blob-create-conf.jpg)
+
 ## Nexus 中配置 npm 仓库
 
 点击添加仓库后, 找到对应的 `npm` 选项.
