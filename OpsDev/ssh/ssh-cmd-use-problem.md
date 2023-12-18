@@ -21,6 +21,13 @@ scp -P 2250 ROOT.war root@127.0.0.1:~
 
 解压到本地：ssh server "cat file.tar.gz" | tar zxf -
 
+## 端口映射
+
+```sh
+# 将服务器上的3306端口映射到本地，可以通过本地的 3306 端口访问数据库
+ssh -L 3306:127.0.0.1:3306 wb-server -N
+```
+
 ## 参考
 
 - [http://blog.csdn.net/rosekin/article/details/18667291](http://blog.csdn.net/rosekin/article/details/18667291)
