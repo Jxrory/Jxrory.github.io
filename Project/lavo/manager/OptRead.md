@@ -1,5 +1,7 @@
 # 爱念居家 - 后台操作手册
 
+**后台地址:** [https://lavo-manager.jxrory.com/](https://lavo-manager.jxrory.com/)
+
 ## 添加设计模板
 
 ![新增模板](./images/template.png)
